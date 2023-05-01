@@ -2,7 +2,7 @@ const express = require('express')
 const morgan = require('morgan')
 
 const api = require('./api')
-const sequelize = require('./lib/squelize')
+const sequelize = require('./lib/sequelize')
 
 const app = express()
 const port = process.env.PORT || 8000
